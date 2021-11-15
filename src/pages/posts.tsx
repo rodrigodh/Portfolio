@@ -13,12 +13,7 @@ export default function Posts() {
       <Container>
         <Heading as="h3">Adding posts!</Heading>
 
-        <Button
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
-          background="grassTeal"
-          color="#202023"
-        >
+        <Button mt={{ md: 4 }} background="grassTeal" color="#202023">
           <NextLink href="/">Go back</NextLink>
         </Button>
 
